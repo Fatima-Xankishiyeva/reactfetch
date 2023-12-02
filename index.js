@@ -3,8 +3,8 @@
  */
 import 'react-native-gesture-handler';
 import {AppRegistry} from 'react-native';
-import maket2 from './src/maket2';
+import Calculator from './src/Calculator';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => maket2);
+AppRegistry.registerComponent(appName, () => Calculator);
