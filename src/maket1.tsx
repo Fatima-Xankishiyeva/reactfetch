@@ -1,18 +1,12 @@
-
-import { DrawerActions, useNavigation } from "@react-navigation/native";
 import React from "react";
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-function Home (){
-const navigation = useNavigation()
+function Maket1 (){
 
   return (
     <SafeAreaView style={styles.area}>
       <View style={styles.header}>
-        <TouchableOpacity onPress={()=>{
-
-          navigation.dispatch(DrawerActions.toggleDrawer())
-        }}>
+        <TouchableOpacity>
         <Image source={require("./assets/icons/menu.png")}/>
         </TouchableOpacity>
          <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -84,7 +78,7 @@ const navigation = useNavigation()
     </SafeAreaView>
   )
 }
-export default Home
+export default Maket1
 
 const styles=StyleSheet.create({
   area:{
